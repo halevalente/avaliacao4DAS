@@ -1,0 +1,17 @@
+1. Framework de Componentes
+
+	a) definição do elemento
+	b) papel (função) na abordagem DBC
+
+2. Modelo de Componentes
+
+	a) definição do elemento
+	b) papel (função) na abordagem DBC
+
+3. Componente de Software
+
+	a) De acordo com Spagnoli e Becker, componente de software são definidos por partes do sistema que possuem a característica de poderem ser reutilizados sem a necessidade de inclusão e geração de dependência para com outros componentes, ou seja, serviços reusáveis. Métodos, classes, subsistemas, documentação, dentre outros, podem ser consideradas componentes, desde que tal conjunto inteiro seja reutilizável não haja vínculo do componente com o contexto em que ele pode ser aplicado.
+	Além desse baixo acoplamento para com outros, os componentes devem ser altamente coesos, sendo de fácil identificação e localização dentro do código, com funcionalidade clara e específica do que executam ou definem.
+	A clareza dos componentes é altamente requerida, pois estes devem ter uma interface sucintae que auxilie o usuário no momento da reutilização e conexão a outros módulos e componentes do sistema, tratando como caixa preta detalhes que não são necessários para o usuário quando for o realizar. Para isso, a documentação é indispensável para o processo de reuso, pois mesmo com um código-fonte bem elaborado e autoexplicativo, nem toda informação ficará clara ao usuário somente com o acesso a este.
+
+	b) papel (função) na abordagem DBC
