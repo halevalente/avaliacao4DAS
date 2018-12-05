@@ -1,17 +1,15 @@
 1. Framework de Componentes
 
-	a) definição do elemento
-	b) papel (função) na abordagem DBC
+	Framework de componente, de acordo com [Spagnoli e Becker, é a implementação de serviços que dão suporte ou reforçam o modelo de componentes e representa a base sobre a qual estes padrões e convenções do modelo de componentes são empregados. A função do framework é gerenciar os recursos compartilhados pelos componentes e prover um mecanismo que possibilite a comunicação e interação entre eles. A infra-estrutura oferecida pelos frameworks de componentes impõem restrições e regras no projeto e implementação, as quais devem ser consideradas pelo modelo de componentes.
+	o uso dos framework de componentes possibilita que os desenvolvedores de componentes e aplicações não precisem se preocupar em implementar em suas aplicações inúmeros serviços complexos para troca de mensagens, passagem de dados e ligação dos componentes.
 
 2. Modelo de Componentes
 
-	a) definição do elemento
-	b) papel (função) na abordagem DBC
+	De acordo com Spagnoli e Becker, modelo de componente representa um elemento da arquitetura do sistema na qual são definidos os padrões e convenções impostas aos componentes do sistema, de modo a descrever a função de cada um e como eles interagem entre si. Através dele é possível definir padrões e convenções, como tipos de componentes, as formas de interação destes e a definição de recursos utilizados por umf ramework de componentes ou por algum componente utilizado.
 
 3. Componente de Software
 
 	a) De acordo com Spagnoli e Becker, componente de software são definidos por partes do sistema que possuem a característica de poderem ser reutilizados sem a necessidade de inclusão e geração de dependência para com outros componentes, ou seja, serviços reusáveis. Métodos, classes, subsistemas, documentação, dentre outros, podem ser consideradas componentes, desde que tal conjunto inteiro seja reutilizável não haja vínculo do componente com o contexto em que ele pode ser aplicado.
 	Além desse baixo acoplamento para com outros, os componentes devem ser altamente coesos, sendo de fácil identificação e localização dentro do código, com funcionalidade clara e específica do que executam ou definem.
 	A clareza dos componentes é altamente requerida, pois estes devem ter uma interface sucintae que auxilie o usuário no momento da reutilização e conexão a outros módulos e componentes do sistema, tratando como caixa preta detalhes que não são necessários para o usuário quando for o realizar. Para isso, a documentação é indispensável para o processo de reuso, pois mesmo com um código-fonte bem elaborado e autoexplicativo, nem toda informação ficará clara ao usuário somente com o acesso a este.
-
-	b) papel (função) na abordagem DBC
+	A aplicação e uso de tecnologias de componentes para o desenvolvimento de software está diretamente relacionado a visão de componentes como componentes de código. Nesta visão é desconsiderada a possibilidade de se ter componentes como artefatos presentes em todas as fases do ciclo de desenvolvimento, e os componentes são considerados apenas artefatos da fase de implementação. Por ser a visão que recebe maior ênfase atualmente ela é considerada, neste trabalho, como sendo o aspecto mais maduro de DBC.
